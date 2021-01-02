@@ -20,8 +20,11 @@
       "js": [
         "app.js"
       ],
+      "css": [
+        "coupon.css"
+      ],
       "run_at": "document_end"
     }
   ],
-  "content_security_policy": "script-src 'self' https://www.gstatic.com/ https://*firebase.com https://www.googleapis.com; object-src 'self'"
+  "content_security_policy": "script-src 'self' https://www.gstatic.com/ https://*.firebaseio.com/ https://www.googleapis.com; object-src 'self'"
 }
